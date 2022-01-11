@@ -71,6 +71,7 @@ section h2 {
     justify-content: center;
     padding: 60px;
     gap: 100px;
+    margin: 50px;
 }
 
 article.concept img {
@@ -84,4 +85,21 @@ article.concept img {
     height: 200px;
     width: 200px;
     text-align: center;
+}
+
+#quotesection {
+    background-color: #E5E7EB;
+}
+
+#quotesection article p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+#quotesection article p + p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
 }
